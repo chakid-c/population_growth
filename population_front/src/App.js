@@ -48,7 +48,7 @@ export default function App() {
   ];
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/population")
+    fetch("https://population-growth-h7sk.onrender.com/api/population")
       .then((res) => res.json())
       .then((json) => {
         const transformed = transformToDataByYear(json);

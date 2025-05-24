@@ -22,5 +22,5 @@ app.get('/api/population', async (req, res) => {
 
 // ✅ Catch-all route (สำหรับทุก route ที่ไม่ match ด้านบน)
 app.use((req, res) => {
-    res.redirect('http://localhost:3000');
+    res.redirect('https://population-growth-henna.vercel.app');
 });
