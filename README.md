@@ -28,6 +28,7 @@ npm install
 npm run start
 
 ## Frontend
+cd population_front
 npm install
 npm run start
 
